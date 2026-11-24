@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn · AI Quest</title>
+<meta name="description" content="AI Quest games, challenges and practice quizzes, plus a quick AI glossary. Practice what you learned and set high scores.">
+<meta name="theme-color" content="#3C75A6">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;family=Nunito:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-nav">
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="AI Quest home"><img src="assets/logo.svg" alt="" width="44" height="48"><span>AI <b>Quest</b></span></a>
+    <nav class="nav" aria-label="Main"><a href="dashboard.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="8" height="10" rx="2"/><rect x="13" y="3" width="8" height="6" rx="2"/><rect x="13" y="11" width="8" height="10" rx="2"/><rect x="3" y="15" width="8" height="6" rx="2"/></svg><span>Dashboard</span></a><a href="course.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6l8-3 8 3-8 3z"/><path d="M4 12l8 3 8-3M4 17l8 3 8-3"/></svg><span>Course</span></a><a href="learn.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M8 10v5M5.5 12.5h5"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor"/><circle cx="18" cy="14" r="1" fill="currentColor"/></svg><span>Learn</span></a><a href="about.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".9" fill="currentColor"/></svg><span>About</span></a><a href="resources.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>Resources</span></a></nav>
+    <div class="stats">
+      <span class="chip streak" title="Day streak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" d="M12 2c.5 3.5 4.5 5.5 4.5 10a4.5 4.5 0 0 1-9 0c0-1.8.8-3 1.8-4 .2 1.6 1 2.5 2 2.7C11 8.5 10.8 5 12 2z"/></svg><span data-streak>0</span><span class="lbl">day</span></span>
+      <a class="chip xp" href="dashboard.html" title="Your total XP"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="currentColor"/></svg><span data-xp>0</span><span class="lbl">XP</span></a>
+      <span class="chip level" data-level>Level 1</span>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="container">
+  <div class="page-head">
+    <div class="eyebrow">Practice zone</div>
+    <h1>Games, challenges &amp; practice quizzes</h1>
+    <p class="lead" style="max-width:62ch">Want extra practice between levels? Race the clock, test your fact-checking, or take a quick quiz. Games and practice quizzes don’t earn XP, but they help skills stick and set high scores.</p>
+  </div>
+
+  <section class="section" style="padding-top:1rem" aria-labelledby="gh">
+    <h2 id="gh">Games &amp; challenges</h2>
+    <div class="grid g4" id="games-root"></div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="dc">
+    <div class="card daily" style="display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap">
+      <div style="flex:1;min-width:240px">
+        <span class="pill orange">Daily challenge</span>
+        <h2 id="dc" style="margin:.4rem 0 .2rem;font-size:1.5rem">One question a day, +25 XP</h2>
+        <p style="margin:0">Keep your streak alive with a quick daily question from the levels you’ve unlocked.</p>
+      </div>
+      <a class="btn orange" href="activity.html?id=daily">Start today’s challenge</a>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="ph">
+    <h2 id="ph">Practice quizzes</h2>
+    <div class="grid" id="practice-root"></div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="gl">
+    <h2 id="gl">Quick AI glossary</h2>
+    <div class="card prose">
+      <details><summary><b>Artificial intelligence (AI)</b></summary><p>Technology that lets computers do tasks that normally need human intelligence, like recognizing speech or images, making predictions, or generating content.</p></details>
+      <details><summary><b>Machine learning (ML)</b></summary><p>A way of building AI where a computer finds patterns in examples (data) instead of only following hand-written rules.</p></details>
+      <details><summary><b>Data</b></summary><p>The examples an AI learns from, such as photos, text, numbers or sounds.</p></details>
+      <details><summary><b>Generative AI</b></summary><p>AI that creates new content, such as text, images, audio or code, based on patterns it learned.</p></details>
+      <details><summary><b>Large language model (LLM)</b></summary><p>The kind of AI behind many chatbots. It learned from huge amounts of text to predict what words are likely to come next.</p></details>
+      <details><summary><b>Narrow AI</b></summary><p>AI that is good at specific tasks only. All AI available today is narrow AI.</p></details>
+      <details><summary><b>Prompt</b></summary><p>The instruction or question you give an AI tool.</p></details>
+      <details><summary><b>Hallucination</b></summary><p>When an AI produces information that sounds believable but is false or made up, such as a source that doesn’t exist.</p></details>
+      <details><summary><b>Bias</b></summary><p>Results that are systematically unfair or skewed toward or against certain people or ideas, often because of unbalanced data.</p></details>
+      <details><summary><b>Academic integrity</b></summary><p>Being honest about your work: doing your own thinking, following the rules, and giving credit for help and sources.</p></details>
+      <details><summary><b>3-Check Rule</b></summary><p>Source check, second-source check, sense check. A routine for verifying AI answers.</p></details>
+      <details><summary><b>R.E.A.L. Check</b></summary><p>Rules, Effort, Accuracy, Look out. Four questions to ask before you submit or share anything made with AI.</p></details>
+    </div>
+  </section>
+</div>
+<style>
+  details{border-bottom:2px dashed var(--line);padding:.7rem 0}
+  details:last-child{border:0}
+  summary{cursor:pointer;font-size:1.05rem}
+  details p{margin:.5rem 0 0;color:var(--muted);font-weight:600}
+</style>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>AI Quest</h4>
+        <p>Learn. Explore. Level Up. A free AI learning portal that helps high school students understand AI, use it well, and use it responsibly.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="learn.html">Learn: games &amp; quizzes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resources.html">Resources &amp; citations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Privacy</h4>
+        <p>No accounts and no tracking. Your progress is saved only in your own browser.</p>
+      </div>
+    </div>
+    <p class="fine">Built for the TSA Webmaster event · Downingtown East High School TSA (2208-902). All artwork is original. Page content last updated November 2026.</p>
+  </div>
+</footer>
+<noscript><div style="position:fixed;bottom:0;left:0;right:0;background:#FF914D;color:#1E2A52;padding:.8rem 1rem;text-align:center;font-weight:800;z-index:999">AI Quest’s lessons and progress tracking need JavaScript. Please turn it on to play.</div></noscript>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/learn.js"></script>
+</body>
+</html>

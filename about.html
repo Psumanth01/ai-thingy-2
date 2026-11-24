@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About · AI Quest</title>
+<meta name="description" content="The goal of AI Quest, how the site works, how it answers the design brief, the research behind the curriculum, and our design choices.">
+<meta name="theme-color" content="#3C75A6">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;family=Nunito:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-nav">
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="AI Quest home"><img src="assets/logo.svg" alt="" width="44" height="48"><span>AI <b>Quest</b></span></a>
+    <nav class="nav" aria-label="Main"><a href="dashboard.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="8" height="10" rx="2"/><rect x="13" y="3" width="8" height="6" rx="2"/><rect x="13" y="11" width="8" height="10" rx="2"/><rect x="3" y="15" width="8" height="6" rx="2"/></svg><span>Dashboard</span></a><a href="course.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6l8-3 8 3-8 3z"/><path d="M4 12l8 3 8-3M4 17l8 3 8-3"/></svg><span>Course</span></a><a href="learn.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M8 10v5M5.5 12.5h5"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor"/><circle cx="18" cy="14" r="1" fill="currentColor"/></svg><span>Learn</span></a><a href="about.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".9" fill="currentColor"/></svg><span>About</span></a><a href="resources.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>Resources</span></a></nav>
+    <div class="stats">
+      <span class="chip streak" title="Day streak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" d="M12 2c.5 3.5 4.5 5.5 4.5 10a4.5 4.5 0 0 1-9 0c0-1.8.8-3 1.8-4 .2 1.6 1 2.5 2 2.7C11 8.5 10.8 5 12 2z"/></svg><span data-streak>0</span><span class="lbl">day</span></span>
+      <a class="chip xp" href="dashboard.html" title="Your total XP"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="currentColor"/></svg><span data-xp>0</span><span class="lbl">XP</span></a>
+      <span class="chip level" data-level>Level 1</span>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="container">
+  <div class="page-head">
+    <div class="eyebrow">About AI Quest</div>
+    <h1>Making AI make sense</h1>
+    <p class="lead" style="max-width:64ch">AI Quest is an interactive learning portal that demystifies artificial intelligence for high school students (grades 9–12). It teaches how AI works, how to use AI tools effectively, and how to use them ethically in school.</p>
+  </div>
+
+  <div class="narrow prose" style="margin:0 auto;width:min(980px,100% - 2.5rem)">
+
+    <h2 id="mission">Our goal and mission</h2>
+    <div class="grid g3" style="margin:1rem 0 1.5rem">
+      <div class="card"><h3>Understand</h3><p class="muted" style="margin:0">Replace AI hype and mystery with clear, plain-language foundations and hands-on examples.</p></div>
+      <div class="card"><h3>Apply</h3><p class="muted" style="margin:0">Practice with real AI tool categories and proven techniques, like prompting and fact-checking.</p></div>
+      <div class="card"><h3>Act with integrity</h3><p class="muted" style="margin:0">Build habits for honesty, privacy, credit and fairness so AI supports learning and never replaces it.</p></div>
+    </div>
+    <p>Education leaders increasingly treat AI literacy as a core competency instead of an optional extra (World Economic Forum, 2025), and international groups such as UNESCO and the OECD with the European Commission have published frameworks describing what students should know. AI Quest turns those ideas into something students actually want to open: short lessons, games, streaks and badges.</p>
+
+    <h2 id="how">How the site works</h2>
+    <ol>
+      <li><b>Pick up the course.</b> The <a href="course.html">Course</a> page shows four levels and a final application. Each level has a <b>lesson</b>, a <b>challenge</b> and a <b>knowledge check</b>.</li>
+      <li><b>Follow the loop: Learn → Challenge → Quiz → Earn XP.</b> Lessons are interactive. Quizzes give instant feedback, and any question you miss comes back once at the end.</li>
+      <li><b>Level up.</b> Every activity earns XP (lesson 50, challenge 75, quiz 100, level bonus 200, daily challenge 25, final application 300). Finishing a level unlocks the next.</li>
+      <li><b>Collect badges.</b> There are 10, from AI Explorer to AI Navigator. Some reward skill (a perfect quiz), some reward habits (a three-day streak).</li>
+      <li><b>Track your progress.</b> Your <a href="dashboard.html">Dashboard</a> shows your level, XP bar, streak, badges, weekly XP, daily challenge and high scores.</li>
+      <li><b>Practice for fun.</b> The <a href="learn.html">Learn</a> page has four games and practice quizzes for every level.</li>
+      <li><b>Earn the certificate.</b> Finish all four levels and the Final Application to become an AI Navigator and print your certificate.</li>
+    </ol>
+
+    <h2 id="brief">How AI Quest answers the design brief</h2>
+    <p>The challenge was to design an interactive AI learning portal for grades 9–12 that demystifies AI, showcases practical tools, teaches effective and ethical academic use, and includes gamification with visible progress tracking. Here is how each requirement is met.</p>
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th scope="col">Requirement</th><th scope="col">How AI Quest delivers it</th><th scope="col">See it</th></tr></thead>
+        <tbody>
+          <tr><td><b>At least three distinct content modules</b></td><td>Four modules: foundational concepts (Level 1), assessing AI’s limits (Level 2), practical tools and techniques (Level 3), and ethical use (Level 4). Each has a lesson, a challenge and a knowledge check.</td><td><a href="course.html">Course</a></td></tr>
+          <tr><td><b>Fundamental AI concepts</b></td><td>What AI, machine learning, data and generative AI are. How chatbots work. Narrow AI. The five big ideas of AI.</td><td>Level 1</td></tr>
+          <tr><td><b>Practical AI tools and techniques</b></td><td>A tour of seven kinds of AI tools with where each shines and what to watch out for. The R-T-C-F prompt recipe, iterating with follow-ups, the 3-Check Rule for fact-checking, and a prompt builder.</td><td>Levels 2 and 3</td></tr>
+          <tr><td><b>Ethical AI use in school</b></td><td>Academic integrity, privacy, copyright and credit, deepfakes and misinformation, fairness, and the R.E.A.L. Check. The final application ends with the student’s own AI Use Statement.</td><td>Level 4 and Final</td></tr>
+          <tr><td><b>Gamified, interactive interface</b></td><td>XP, levels, 10 badges, streaks, a daily challenge, games with high scores, instant feedback and a friendly robot guide. Every lesson uses tap-to-flip cards, sorting, matching, spot-the-error and scenario choices instead of walls of text.</td><td><a href="learn.html">Learn</a></td></tr>
+          <tr><td><b>Visual progress tracking</b></td><td>A level progress bar, a path map, a badge shelf, a weekly XP chart, activity checkmarks on the course map and a printable certificate.</td><td><a href="dashboard.html">Dashboard</a></td></tr>
+          <tr><td><b>Right for grades 9–12</b></td><td>School-based scenarios (group projects, citations, study prompts), plain language, short activities, a mobile-friendly layout and respect for students’ time and privacy.</td><td>Throughout</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="research">The research behind the curriculum</h2>
+    <p>AI Quest’s curriculum was designed using published AI-literacy frameworks, so it covers what experts say students need. Full citations are on the <a href="resources.html">Resources</a> page.</p>
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th scope="col">AI4K12 Big Idea</th><th scope="col">Where students meet it</th></tr></thead>
+        <tbody>
+          <tr><td><b>1. Perception</b></td><td>Level 1: how computers “sense” the world with cameras and microphones</td></tr>
+          <tr><td><b>2. Representation &amp; reasoning</b></td><td>Level 1: how AI organizes information and reasons, like a map app finding a route</td></tr>
+          <tr><td><b>3. Learning</b></td><td>Level 1 (machine learning and data) and Level 2 (how data creates bias)</td></tr>
+          <tr><td><b>4. Natural interaction</b></td><td>Level 1 (chatbots and language) and Level 3 (talking to AI with prompts)</td></tr>
+          <tr><td><b>5. Societal impact</b></td><td>Level 2 (bias, misinformation) and Level 4 (integrity, privacy, fairness)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th scope="col">UNESCO competency idea</th><th scope="col">How AI Quest uses it</th></tr></thead>
+        <tbody>
+          <tr><td><b>Four dimensions:</b> human-centred mindset, ethics of AI, AI techniques and applications, AI system design</td><td>Level 2 (human judgment stays in charge) and Level 4 (ethics) cover the first two. Levels 1 and 3 cover techniques and applications. AI system design appears only lightly (for example, how data shapes a model), because building AI systems is beyond this course.</td></tr>
+          <tr><td><b>Three progression levels:</b> Understand, Apply, Create</td><td>Levels 1–2 focus on <i>Understand</i>. Levels 3–4 focus on <i>Apply</i>. The Final Application asks students to <i>Create</i> a prompt and write their own AI Use Statement.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The OECD and European Commission AI literacy framework describes AI literacy as the knowledge, skills and attitudes to understand how AI works, evaluate its outputs and use it ethically and creatively. That goal shaped the balance of Levels 1–4. Common Sense Education’s Digital Literacy &amp; Well-Being curriculum for grades 9–12 informed our everyday scenarios about privacy, misinformation and online behavior.</p>
+
+    <h2 id="design">Design choices</h2>
+    <h3>Inspiration</h3>
+    <p>We were inspired by the way <b>Duolingo</b> builds daily habits (XP, streaks, a friendly mascot and bite-size lessons that give instant feedback) and by <b>Khan Academy</b>’s focus on mastery and clear progress tracking. All of AI Quest’s art, code and content are our own.</p>
+    <h3>Colors</h3>
+    <div class="swatches" style="margin:.6rem 0 1rem">
+      <div class="sw"><i style="background:#3C75A6"></i><span>Blue #3C75A6<br><small>Primary buttons, links, level 1</small></span></div>
+      <div class="sw"><i style="background:#6C80C8"></i><span>Powder blue #6C80C8<br><small>Accents, level 2, charts</small></span></div>
+      <div class="sw"><i style="background:#CB6CE6"></i><span>Magenta #CB6CE6<br><small>Badges, bonus activities</small></span></div>
+      <div class="sw"><i style="background:#FF914D"></i><span>Orange #FF914D<br><small>XP, streaks, calls to action</small></span></div>
+      <div class="sw"><i style="background:#F9F9F9"></i><span>Light gray #F9F9F9<br><small>Page background</small></span></div>
+      <div class="sw"><i style="background:#1E2A52"></i><span>Deep navy #1E2A52<br><small>Text and footer (added for contrast)</small></span></div>
+    </div>
+    <p>Green and red appear only for correct and incorrect feedback, always alongside words and icons so color is never the only signal.</p>
+    <h3>Typography and icons</h3>
+    <p>Headings use <b>Lilita One</b>, a rounded, friendly display font. Body text uses <b>Nunito</b> for easy reading on screens. Lessons follow a consistent hierarchy: big question or title, short explanation, then interaction. Icons are simple, consistent line icons, and Byte the robot appears throughout to guide students, just as a mascot guides learners in other popular apps.</p>
+    <h3>Accessibility and compatibility</h3>
+    <ul>
+      <li>High-contrast text, visible keyboard focus, a skip link, and number-key shortcuts for answer choices.</li>
+      <li>Feedback is announced to screen readers, and animations stop for visitors who prefer reduced motion.</li>
+      <li>The layout adapts from phones to desktops, with a bottom tab bar on small screens.</li>
+      <li>Built with standard HTML, CSS and JavaScript that work in the latest versions of Chrome, Edge, Firefox and Safari.</li>
+    </ul>
+
+    <h2 id="privacy">Privacy and safety</h2>
+    <p>AI Quest has <b>no accounts, no logins, no ads and no tracking</b>. Your name (optional), XP, badges and notes are saved only in your own browser on your own device. Nothing is sent to a server. You can erase everything any time with “Reset my progress” on the <a href="dashboard.html">Dashboard</a>. Because progress is saved per browser, using a different device or browser starts you fresh.</p>
+
+    <h2 id="built">How it was built</h2>
+    <p>AI Quest is hand-coded with HTML5, CSS3 and plain JavaScript. We did not use a website builder or a content management system. We also did not use a JavaScript framework. All lessons are stored as structured data and turned into interactive screens by a small activity player we wrote. The site is hosted as static files, so it is available 24 hours a day, 7 days a week. A full list of sources, tools and AI disclosures is on the <a href="resources.html">Resources</a> page.</p>
+
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>AI Quest</h4>
+        <p>Learn. Explore. Level Up. A free AI learning portal that helps high school students understand AI, use it well, and use it responsibly.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="learn.html">Learn: games &amp; quizzes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resources.html">Resources &amp; citations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Privacy</h4>
+        <p>No accounts and no tracking. Your progress is saved only in your own browser.</p>
+      </div>
+    </div>
+    <p class="fine">Built for the TSA Webmaster event · Downingtown East High School TSA (2208-902). All artwork is original. Page content last updated November 2026.</p>
+  </div>
+</footer>
+<noscript><div style="position:fixed;bottom:0;left:0;right:0;background:#FF914D;color:#1E2A52;padding:.8rem 1rem;text-align:center;font-weight:800;z-index:999">AI Quest’s lessons and progress tracking need JavaScript. Please turn it on to play.</div></noscript>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>

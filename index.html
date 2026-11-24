@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Quest · Learn. Explore. Level Up.</title>
+<meta name="description" content="AI Quest is a free, game-style learning portal that helps high school students understand AI, use AI tools well, and use AI responsibly. Earn XP, collect badges, and become an AI Navigator.">
+<meta name="theme-color" content="#3C75A6">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;family=Nunito:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-nav">
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="AI Quest home"><img src="assets/logo.svg" alt="" width="44" height="48"><span>AI <b>Quest</b></span></a>
+    <nav class="nav" aria-label="Main"><a href="dashboard.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="8" height="10" rx="2"/><rect x="13" y="3" width="8" height="6" rx="2"/><rect x="13" y="11" width="8" height="10" rx="2"/><rect x="3" y="15" width="8" height="6" rx="2"/></svg><span>Dashboard</span></a><a href="course.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6l8-3 8 3-8 3z"/><path d="M4 12l8 3 8-3M4 17l8 3 8-3"/></svg><span>Course</span></a><a href="learn.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M8 10v5M5.5 12.5h5"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor"/><circle cx="18" cy="14" r="1" fill="currentColor"/></svg><span>Learn</span></a><a href="about.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".9" fill="currentColor"/></svg><span>About</span></a><a href="resources.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>Resources</span></a></nav>
+    <div class="stats">
+      <span class="chip streak" title="Day streak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" d="M12 2c.5 3.5 4.5 5.5 4.5 10a4.5 4.5 0 0 1-9 0c0-1.8.8-3 1.8-4 .2 1.6 1 2.5 2 2.7C11 8.5 10.8 5 12 2z"/></svg><span data-streak>0</span><span class="lbl">day</span></span>
+      <a class="chip xp" href="dashboard.html" title="Your total XP"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="currentColor"/></svg><span data-xp>0</span><span class="lbl">XP</span></a>
+      <span class="chip level" data-level>Level 1</span>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="container">
+    <div>
+      <div class="eyebrow" style="color:#FFD0AE">Free AI learning portal · Grades 9–12</div>
+      <h1>Learn. Explore. <em>Level Up.</em></h1>
+      <p class="lead">Understand how AI really works, use it like a pro, and make smart, honest choices with it. Short lessons, games and challenges. Earn XP, collect badges, and become an AI Navigator.</p>
+      <div class="btn-row">
+        <a class="btn orange" id="cta-main" href="activity.html?id=m1-lesson">Start learning</a>
+        <a class="btn ghost" href="course.html">See the course</a>
+      </div>
+    </div>
+    <div class="bot-wrap" data-mascot="wave"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="center" style="max-width:720px;margin:0 auto 2.4rem">
+      <div class="eyebrow">How AI Quest works</div>
+      <h2>Learn → Challenge → Quiz → Earn XP</h2>
+      <p class="lead">Every level follows the same simple loop, so you always know what comes next.</p>
+    </div>
+    <div class="steps4">
+      <div class="card"><h3>Learn</h3><p class="muted" style="margin:0">Tap through a short, interactive lesson with examples you can try.</p></div>
+      <div class="card"><h3>Challenge</h3><p class="muted" style="margin:0">Practice with real school scenarios, prompt makeovers and exploration activities.</p></div>
+      <div class="card"><h3>Quiz</h3><p class="muted" style="margin:0">Check what stuck. Miss a question and you get another shot at the end.</p></div>
+      <div class="card"><h3>Earn XP</h3><p class="muted" style="margin:0">Fill your XP bar, level up, and unlock badges and your certificate.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;border-block:2px solid var(--line)">
+  <div class="container">
+    <div class="center" style="margin-bottom:1.6rem">
+      <div class="eyebrow">Try it now</div>
+      <h2>Quick question to warm up</h2>
+    </div>
+    <div class="card teaser" id="teaser"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="center" style="max-width:720px;margin:0 auto 2rem">
+      <div class="eyebrow">Your path</div>
+      <h2>Four levels. One big skill set.</h2>
+    </div>
+    <div class="levels-strip">
+      <a class="lvl-card l1" href="course.html#m1" style="text-decoration:none"><div class="n">Level 1</div><h3>Introduction to AI</h3><p>What AI is, how machines learn, and what chatbots really do.</p></a>
+      <a class="lvl-card l2" href="course.html#m2" style="text-decoration:none"><div class="n">Level 2</div><h3>Assessing AI</h3><p>Spot mistakes, hallucinations and bias, then fact-check like a pro.</p></a>
+      <a class="lvl-card l3" href="course.html#m3" style="text-decoration:none"><div class="n">Level 3</div><h3>Applying AI</h3><p>Tour real AI tools and write prompts that get great results.</p></a>
+      <a class="lvl-card l4" href="course.html#m4" style="text-decoration:none"><div class="n">Level 4</div><h3>Responsible AI</h3><p>Academic integrity, privacy, credit, and fairness in the AI age.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="grid g3">
+      <div class="card feature"><div class="ico b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg></div><h3>Understand AI</h3><p class="muted" style="margin:0">Cut through the hype. Learn the foundations in plain language with examples from your own day.</p></div>
+      <div class="card feature"><div class="ico m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg></div><h3>Use AI tools well</h3><p class="muted" style="margin:0">Tour the AI tools students use and master prompting, follow-ups and fact-checking.</p></div>
+      <div class="card feature"><div class="ico o"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l7 3v5.5c0 4.5-3 7.8-7 9.5-4-1.7-7-5-7-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg></div><h3>Use AI ethically</h3><p class="muted" style="margin:0">Know what’s honest, what’s private and what’s fair, so AI helps your learning instead of replacing it.</p></div>
+    </div>
+    <div class="grid g3" style="margin-top:1.25rem">
+      <div class="card feature"><div class="ico p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="currentColor"/></svg></div><h3>XP &amp; levels</h3><p class="muted" style="margin:0">Every activity earns XP. Complete a level to move up the path.</p></div>
+      <div class="card feature"><div class="ico o"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg></div><h3>10 collectible badges</h3><p class="muted" style="margin:0">From AI Explorer to AI Navigator. Earn them by learning, not grinding.</p></div>
+      <div class="card feature"><div class="ico b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20V10M10 20V4M16 20v-8M21 20H3"/></svg></div><h3>Your own dashboard</h3><p class="muted" style="margin:0">See your level, XP, streak, badges and weekly progress in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="hero" style="border-radius:28px;text-align:center">
+      <div style="padding:2.6rem 1.5rem;position:relative;z-index:1">
+        <h2 style="color:#fff">Ready to become an AI Navigator?</h2>
+        <p class="lead" style="color:#E3EBFA;margin-inline:auto">No sign-up. No cost. Just start.</p>
+        <a class="btn orange" href="activity.html?id=m1-lesson">Start Level 1</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>AI Quest</h4>
+        <p>Learn. Explore. Level Up. A free AI learning portal that helps high school students understand AI, use it well, and use it responsibly.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="learn.html">Learn: games &amp; quizzes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resources.html">Resources &amp; citations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Privacy</h4>
+        <p>No accounts and no tracking. Your progress is saved only in your own browser.</p>
+      </div>
+    </div>
+    <p class="fine">Built for the TSA Webmaster event · Downingtown East High School TSA (2208-902). All artwork is original. Page content last updated November 2026.</p>
+  </div>
+</footer>
+<noscript><div style="position:fixed;bottom:0;left:0;right:0;background:#FF914D;color:#1E2A52;padding:.8rem 1rem;text-align:center;font-weight:800;z-index:999">AI Quest’s lessons and progress tracking need JavaScript. Please turn it on to play.</div></noscript>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
