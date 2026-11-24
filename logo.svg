@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 195" role="img" aria-label="Byte, the AI Quest robot">
+  <ellipse cx="80" cy="188" rx="30" ry="5" fill="rgba(30,42,82,.16)"/>
+  <line x1="80" y1="34" x2="80" y2="21" stroke="#3C4F9E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="14" r="8" fill="#FFB13D" stroke="#3C4F9E" stroke-width="3"/>
+  <rect x="14" y="62" width="16" height="36" rx="8" fill="#3C4F9E"/>
+  <rect x="130" y="62" width="16" height="36" rx="8" fill="#3C4F9E"/>
+  <path d="M52 136 Q34 142 32 158" stroke="#3C4F9E" stroke-width="17" stroke-linecap="round" fill="none"/>
+  <path d="M52 136 Q34 142 32 158" stroke="#A9C0F4" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M108 136 Q126 142 128 158" stroke="#3C4F9E" stroke-width="17" stroke-linecap="round" fill="none"/>
+  <path d="M108 136 Q126 142 128 158" stroke="#A9C0F4" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <rect x="50" y="120" width="60" height="46" rx="22" fill="#A9C0F4" stroke="#3C4F9E" stroke-width="4"/>
+  <rect x="62" y="132" width="36" height="22" rx="11" fill="#C7EEF9"/>
+  <circle cx="80" cy="143" r="4.5" fill="#FF914D"/>
+  <ellipse cx="80" cy="172" rx="20" ry="8" fill="#6C80C8" stroke="#3C4F9E" stroke-width="3"/>
+  <rect x="26" y="34" width="108" height="86" rx="38" fill="#A9C0F4" stroke="#3C4F9E" stroke-width="4"/>
+  <rect x="40" y="50" width="80" height="54" rx="24" fill="#22336E"/>
+  <ellipse cx="52" cy="58" rx="7" ry="3" fill="#fff" opacity=".25" transform="rotate(-25 52 58)"/>
+  <ellipse cx="63" cy="72" rx="6" ry="7" fill="#fff"/>
+  <ellipse cx="97" cy="72" rx="6" ry="7" fill="#fff"/>
+  <path d="M68 86 Q80 97 92 86" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+</svg>
